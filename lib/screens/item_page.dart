@@ -15,6 +15,7 @@ class _ItemPageState extends State<ItemPage> {
     setState(() {
       _selectedRadio = value!;
     });
+
   }
 
   @override
@@ -87,7 +88,7 @@ class _ItemPageState extends State<ItemPage> {
                           width: 17,
                           height: 16,
                           decoration: const BoxDecoration(
-                            color: Colors.red, // Background color
+                            color: Colors.red,
                             shape: BoxShape.rectangle,
                           ),
                           child: Center(
